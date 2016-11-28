@@ -1,0 +1,1260 @@
+# depslib dependency file v1.0
+1452712680 source:/home/jonathan/Dropbox/Asistente/AsistenteSDL2/main.cpp
+	"Principal.h"
+
+1454879869 source:/home/jonathan/Dropbox/Asistente/AsistenteSDL2/src/AnastasiaChan.cpp
+	<cerrno>
+	"AnastasiaChan.h"
+	"FuncionesPantalla.h"
+	"stringConvert.h"
+	"Constantes.h"
+
+1452739038 source:/home/jonathan/Dropbox/Asistente/AsistenteSDL2/src/Fuente.cpp
+	"Fuente.h"
+
+1454814379 source:/home/jonathan/Dropbox/Asistente/AsistenteSDL2/src/PantallaPrincipal.cpp
+	<ctime>
+	<SDL.h>
+	<cerrno>
+	<cstdlib>
+	<iostream>
+	<fstream>
+	"Constantes.h"
+	"stringConvert.h"
+	"PantallaPrincipal.h"
+
+1399696839 /usr/include/SDL/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1399696840 /usr/include/SDL/SDL_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1399696839 /usr/include/SDL/SDL_platform.h
+
+1399696840 /usr/include/SDL/begin_code.h
+
+1399696840 /usr/include/SDL/close_code.h
+
+1399696839 /usr/include/SDL/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_keysym.h
+
+1399696839 /usr/include/SDL/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696840 /usr/include/SDL/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696839 /usr/include/SDL/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1399696839 /usr/include/SDL/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696840 /usr/include/SDL/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1399696840 /usr/include/SDL/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1454119941 source:/home/jonathan/Dropbox/Asistente/AsistenteSDL2/src/Principal.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<cmath>
+	<unistd.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	"Constantes.h"
+	"FuncionesPantalla.h"
+	"Principal.h"
+	"PantallaPrincipal.h"
+
+1387745250 /usr/include/SDL/SDL_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1447809440 source:/home/jonathan/Dropbox/Asistente/AsistenteSDL2/src/stringConvert.cpp
+	"../include/stringConvert.h"
+	<iostream>
+	<cstdlib>
+	<cctype>
+	<string>
+	<sstream>
+	<conio.h>
+	<stdio.h>
+	<termios.h>
+	<unistd.h>
+	<fcntl.h>
+	<termios.h>
+	<stdio.h>
+	<cstdlib>
+
+1414802726 /home/jonathan/Dropbox/Asistente/AsistenteSDL2/include/stringConvert.h
+	<string>
+	<iostream>
+	<exception>
+
+1453256974 /home/jonathan/Dropbox/Asistente/AsistenteSDL2/include/AnastasiaChan.h
+	<SDL.h>
+	"List.h"
+
+1411940439 /home/jonathan/Dropbox/Asistente/AsistenteSDL2/include/List.h
+	<iostream>
+	<cstdlib>
+	<exception>
+	<string>
+
+1452737848 /home/jonathan/Dropbox/Asistente/AsistenteSDL2/include/FuncionesPantalla.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	"List.h"
+	"Fuente.h"
+
+1452739027 /home/jonathan/Dropbox/Asistente/AsistenteSDL2/include/Fuente.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<string>
+	<ostream>
+	<iostream>
+
+1453084411 /home/jonathan/Dropbox/Asistente/AsistenteSDL2/include/Constantes.h
+
+1453083236 /home/jonathan/Dropbox/Asistente/AsistenteSDL2/include/PantallaPrincipal.h
+	<SDL.h>
+	"FuncionesPantalla.h"
+	"AnastasiaChan.h"
+	"CuadroTexto.h"
+	"ConsolaComandos.h"
+
+1400119695 /usr/include/SDL2/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_config.h
+	"SDL_platform.h"
+
+1400119696 /usr/include/SDL2/SDL_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/begin_code.h
+
+1400119696 /usr/include/SDL2/close_code.h
+
+1400119695 /usr/include/SDL2/SDL_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1400119695 /usr/include/SDL2/SDL_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119695 /usr/include/SDL2/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119695 /usr/include/SDL2/SDL_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119695 /usr/include/SDL2/SDL_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119695 /usr/include/SDL2/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119695 /usr/include/SDL2/SDL_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1400119696 /usr/include/SDL2/SDL_scancode.h
+	"SDL_stdinc.h"
+
+1400119696 /usr/include/SDL2/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1400119696 /usr/include/SDL2/SDL_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1400119696 /usr/include/SDL2/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1383088426 /usr/include/SDL2/SDL_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1452903427 source:/home/jonathan/Dropbox/Asistente/AsistenteSDL2/src/FuncionesPantalla.cpp
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<iostream>
+	<fstream>
+	<cmath>
+	<SDL2/SDL_image.h>
+	"Fuente.h"
+	"FuncionesPantalla.h"
+	"Constantes.h"
+
+1452634730 /home/jonathan/Dropbox/Asistente/AsistenteSDL2/include/Principal.h
+	<SDL.h>
+	<SDL_ttf.h>
+	"Constantes.h"
+	"FuncionesPantalla.h"
+	"PantallaPrincipal.h"
+
+1452712680 source:/home/sanjuandedios/Dropbox/Asistente/AsistenteSDL2/main.cpp
+	"Principal.h"
+
+1452634730 /home/sanjuandedios/Dropbox/Asistente/AsistenteSDL2/include/Principal.h
+	<SDL.h>
+	<SDL_ttf.h>
+	"Constantes.h"
+	"FuncionesPantalla.h"
+	"PantallaPrincipal.h"
+
+1453084411 /home/sanjuandedios/Dropbox/Asistente/AsistenteSDL2/include/Constantes.h
+
+1452737848 /home/sanjuandedios/Dropbox/Asistente/AsistenteSDL2/include/FuncionesPantalla.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	"List.h"
+	"Fuente.h"
+
+1411940439 /home/sanjuandedios/Dropbox/Asistente/AsistenteSDL2/include/List.h
+	<iostream>
+	<cstdlib>
+	<exception>
+	<string>
+
+1452739027 /home/sanjuandedios/Dropbox/Asistente/AsistenteSDL2/include/Fuente.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<string>
+	<ostream>
+	<iostream>
+
+1453083236 /home/sanjuandedios/Dropbox/Asistente/AsistenteSDL2/include/PantallaPrincipal.h
+	<SDL.h>
+	"FuncionesPantalla.h"
+	"AnastasiaChan.h"
+	"CuadroTexto.h"
+	"ConsolaComandos.h"
+
+1453256974 /home/sanjuandedios/Dropbox/Asistente/AsistenteSDL2/include/AnastasiaChan.h
+	<SDL.h>
+	"List.h"
+
+1454625629 source:/home/sanjuandedios/Dropbox/Asistente/AsistenteSDL2/src/AnastasiaChan.cpp
+	<cerrno>
+	"AnastasiaChan.h"
+	"FuncionesPantalla.h"
+	"stringConvert.h"
+	"Constantes.h"
+
+1414802726 /home/sanjuandedios/Dropbox/Asistente/AsistenteSDL2/include/stringConvert.h
+	<string>
+	<iostream>
+	<exception>
+
+1452739038 source:/home/sanjuandedios/Dropbox/Asistente/AsistenteSDL2/src/Fuente.cpp
+	"Fuente.h"
+
+1452903427 source:/home/sanjuandedios/Dropbox/Asistente/AsistenteSDL2/src/FuncionesPantalla.cpp
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<iostream>
+	<fstream>
+	<cmath>
+	<SDL2/SDL_image.h>
+	"Fuente.h"
+	"FuncionesPantalla.h"
+	"Constantes.h"
+
+1454119941 source:/home/sanjuandedios/Dropbox/Asistente/AsistenteSDL2/src/Principal.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<cmath>
+	<unistd.h>
+	<SDL.h>
+	<SDL_ttf.h>
+	"Constantes.h"
+	"FuncionesPantalla.h"
+	"Principal.h"
+	"PantallaPrincipal.h"
+
+1447809440 source:/home/sanjuandedios/Dropbox/Asistente/AsistenteSDL2/src/stringConvert.cpp
+	"../include/stringConvert.h"
+	<iostream>
+	<cstdlib>
+	<cctype>
+	<string>
+	<sstream>
+	<conio.h>
+	<stdio.h>
+	<termios.h>
+	<unistd.h>
+	<fcntl.h>
+	<termios.h>
+	<stdio.h>
+	<cstdlib>
+
+1454288988 source:/home/sanjuandedios/Dropbox/Asistente/AsistenteSDL2/src/PantallaPrincipal.cpp
+	<ctime>
+	<SDL.h>
+	<cerrno>
+	<cstdlib>
+	<iostream>
+	<fstream>
+	"Constantes.h"
+	"stringConvert.h"
+	"PantallaPrincipal.h"
+
+1454996127 source:/home/jonathan/Dropbox/Asistente/AsistenteSDL2/src/CuadroTexto.cpp
+	<cctype>
+	"stringConvert.h"
+	"CuadroTexto.h"
+
+1454996111 /home/jonathan/Dropbox/Asistente/AsistenteSDL2/include/CuadroTexto.h
+	<iostream>
+	<SDL2/SDL.h>
+	"FuncionesPantalla.h"
+	"Scroll.h"
+
+1454625548 source:/home/sanjuandedios/Dropbox/Asistente/AsistenteSDL2/src/CuadroTexto.cpp
+	<cctype>
+	"stringConvert.h"
+	"CuadroTexto.h"
+
+1454627540 /home/sanjuandedios/Dropbox/Asistente/AsistenteSDL2/include/CuadroTexto.h
+	<iostream>
+	<SDL2/SDL.h>
+	"FuncionesPantalla.h"
+	"Scroll.h"
+
+1453086381 source:/home/jonathan/Dropbox/Asistente/AsistenteSDL2/src/Scroll.cpp
+	"Scroll.h"
+
+1453001678 /home/jonathan/Dropbox/Asistente/AsistenteSDL2/include/Scroll.h
+	<SDL2/SDL.h>
+	"List.h"
+
+1453001678 /home/sanjuandedios/Dropbox/Asistente/AsistenteSDL2/include/Scroll.h
+	<SDL2/SDL.h>
+	"List.h"
+
+1453086381 source:/home/sanjuandedios/Dropbox/Asistente/AsistenteSDL2/src/Scroll.cpp
+	"Scroll.h"
+
+1454286664 /home/jonathan/Dropbox/Asistente/AsistenteSDL2/include/ConsolaComandos.h
+	<unistd.h>
+	<cstdio>
+	"AnastasiaChan.h"
+	"CuadroTexto.h"
+
+1454880047 source:/home/jonathan/Dropbox/Asistente/AsistenteSDL2/src/ConsolaComandos.cpp
+	<cerrno>
+	<csignal>
+	<sys/types.h>
+	"Constantes.h"
+	"stringConvert.h"
+	"ConsolaComandos.h"
+
+1454286664 /home/sanjuandedios/Dropbox/Asistente/AsistenteSDL2/include/ConsolaComandos.h
+	<unistd.h>
+	<cstdio>
+	"AnastasiaChan.h"
+	"CuadroTexto.h"
+
+1454625416 source:/home/sanjuandedios/Dropbox/Asistente/AsistenteSDL2/src/ConsolaComandos.cpp
+	<cerrno>
+	<csignal>
+	<sys/types.h>
+	"Constantes.h"
+	"stringConvert.h"
+	"ConsolaComandos.h"
+
+1467060432 source:c:\users\jtalamantes\documents\mega\asistente\asistentesdl2\main.cpp
+	"Principal.h"
+
+1467060375 c:\users\jtalamantes\documents\mega\asistente\asistentesdl2\include\principal.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	"Constantes.h"
+	"FuncionesPantalla.h"
+	"PantallaPrincipal.h"
+
+1453088011 c:\users\jtalamantes\documents\mega\asistente\asistentesdl2\include\constantes.h
+
+1452741448 c:\users\jtalamantes\documents\mega\asistente\asistentesdl2\include\funcionespantalla.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<string>
+	"List.h"
+	"Fuente.h"
+
+1411940439 c:\users\jtalamantes\documents\mega\asistente\asistentesdl2\include\list.h
+	<iostream>
+	<cstdlib>
+	<exception>
+	<string>
+
+1467060381 c:\users\jtalamantes\documents\mega\asistente\asistentesdl2\include\fuente.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<string>
+	<ostream>
+	<iostream>
+
+1467060384 c:\users\jtalamantes\documents\mega\asistente\asistentesdl2\include\pantallaprincipal.h
+	<SDL2/SDL.h>
+	"FuncionesPantalla.h"
+	"AnastasiaChan.h"
+	"CuadroTexto.h"
+	"ConsolaComandos.h"
+
+1467060387 c:\users\jtalamantes\documents\mega\asistente\asistentesdl2\include\anastasiachan.h
+	<SDL2/SDL.h>
+	"List.h"
+
+1454999711 c:\users\jtalamantes\documents\mega\asistente\asistentesdl2\include\cuadrotexto.h
+	<iostream>
+	<SDL2/SDL.h>
+	"FuncionesPantalla.h"
+	"Scroll.h"
+
+1453005278 c:\users\jtalamantes\documents\mega\asistente\asistentesdl2\include\scroll.h
+	<SDL2/SDL.h>
+	"List.h"
+
+1454290264 c:\users\jtalamantes\documents\mega\asistente\asistentesdl2\include\consolacomandos.h
+	<unistd.h>
+	<cstdio>
+	"AnastasiaChan.h"
+	"CuadroTexto.h"
+
+1454883469 source:c:\users\jtalamantes\documents\mega\asistente\asistentesdl2\src\anastasiachan.cpp
+	<cerrno>
+	"AnastasiaChan.h"
+	"FuncionesPantalla.h"
+	"stringConvert.h"
+	"Constantes.h"
+
+1414806326 c:\users\jtalamantes\documents\mega\asistente\asistentesdl2\include\stringconvert.h
+	<string>
+	<iostream>
+	<exception>
+
+1454883647 source:c:\users\jtalamantes\documents\mega\asistente\asistentesdl2\src\consolacomandos.cpp
+	<cerrno>
+	<csignal>
+	<sys/types.h>
+	"Constantes.h"
+	"stringConvert.h"
+	"ConsolaComandos.h"
+
+1454999727 source:c:\users\jtalamantes\documents\mega\asistente\asistentesdl2\src\cuadrotexto.cpp
+	<cctype>
+	"stringConvert.h"
+	"CuadroTexto.h"
+
+1452742638 source:c:\users\jtalamantes\documents\mega\asistente\asistentesdl2\src\fuente.cpp
+	"Fuente.h"
+
+1452907027 source:c:\users\jtalamantes\documents\mega\asistente\asistentesdl2\src\funcionespantalla.cpp
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<iostream>
+	<fstream>
+	<cmath>
+	<SDL2/SDL_image.h>
+	"Fuente.h"
+	"FuncionesPantalla.h"
+	"Constantes.h"
+
+1467060393 source:c:\users\jtalamantes\documents\mega\asistente\asistentesdl2\src\pantallaprincipal.cpp
+	<ctime>
+	<SDL2/SDL.h>
+	<cerrno>
+	<cstdlib>
+	<iostream>
+	<fstream>
+	"Constantes.h"
+	"stringConvert.h"
+	"PantallaPrincipal.h"
+
+1467060397 source:c:\users\jtalamantes\documents\mega\asistente\asistentesdl2\src\principal.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<cmath>
+	<unistd.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	"Constantes.h"
+	"FuncionesPantalla.h"
+	"Principal.h"
+	"PantallaPrincipal.h"
+
+1453089981 source:c:\users\jtalamantes\documents\mega\asistente\asistentesdl2\src\scroll.cpp
+	"Scroll.h"
+
+1447813040 source:c:\users\jtalamantes\documents\mega\asistente\asistentesdl2\src\stringconvert.cpp
+	"../include/stringConvert.h"
+	<iostream>
+	<cstdlib>
+	<cctype>
+	<string>
+	<sstream>
+	<conio.h>
+	<stdio.h>
+	<termios.h>
+	<unistd.h>
+	<fcntl.h>
+	<termios.h>
+	<stdio.h>
+	<cstdlib>
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\close_code.h
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451764694 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451800374 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1454362934 c:\sdl2\i686-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
